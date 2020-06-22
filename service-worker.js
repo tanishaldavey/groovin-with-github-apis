@@ -14,7 +14,7 @@
 importScripts("https://storage.googleapis.com/workbox-cdn/releases/4.3.1/workbox-sw.js");
 
 importScripts(
-  "/groovin-with-github-apis/precache-manifest.aad9bb5154794a79d77fc727591d8045.js"
+  "/groovin-with-github-apis/precache-manifest.cd3f934d434a12c71768541f126b1213.js"
 );
 
 self.addEventListener('message', (event) => {
