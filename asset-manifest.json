@@ -1,0 +1,23 @@
+{
+  "files": {
+    "main.css": "/groovin-with-github-apis/static/css/main.5f361e03.chunk.css",
+    "main.js": "/groovin-with-github-apis/static/js/main.6bd07bcf.chunk.js",
+    "main.js.map": "/groovin-with-github-apis/static/js/main.6bd07bcf.chunk.js.map",
+    "runtime-main.js": "/groovin-with-github-apis/static/js/runtime-main.5acd032d.js",
+    "runtime-main.js.map": "/groovin-with-github-apis/static/js/runtime-main.5acd032d.js.map",
+    "static/js/2.f6c9b5c7.chunk.js": "/groovin-with-github-apis/static/js/2.f6c9b5c7.chunk.js",
+    "static/js/2.f6c9b5c7.chunk.js.map": "/groovin-with-github-apis/static/js/2.f6c9b5c7.chunk.js.map",
+    "index.html": "/groovin-with-github-apis/index.html",
+    "precache-manifest.aad9bb5154794a79d77fc727591d8045.js": "/groovin-with-github-apis/precache-manifest.aad9bb5154794a79d77fc727591d8045.js",
+    "service-worker.js": "/groovin-with-github-apis/service-worker.js",
+    "static/css/main.5f361e03.chunk.css.map": "/groovin-with-github-apis/static/css/main.5f361e03.chunk.css.map",
+    "static/js/2.f6c9b5c7.chunk.js.LICENSE.txt": "/groovin-with-github-apis/static/js/2.f6c9b5c7.chunk.js.LICENSE.txt",
+    "static/media/logo.svg": "/groovin-with-github-apis/static/media/logo.5d5d9eef.svg"
+  },
+  "entrypoints": [
+    "static/js/runtime-main.5acd032d.js",
+    "static/js/2.f6c9b5c7.chunk.js",
+    "static/css/main.5f361e03.chunk.css",
+    "static/js/main.6bd07bcf.chunk.js"
+  ]
+}
