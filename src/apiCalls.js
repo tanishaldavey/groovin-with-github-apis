@@ -4,8 +4,21 @@ export const getAllUsers = queryInfo => {
             if (response.status === 200) {
                 return response.json()
             } else {
-                throw new Error('Ooops, something went wrong!')
+                throw new Error('Ooops, cannot get all users!')
             }
         })
         
+}
+
+export const getUserInfo = urlInfo => {
+    return fetch(urlInfo)
+        .then(response => {
+            console.log(response);
+            
+            if (response.status === 200) {
+                return response.json()
+            } else {
+                throw new Error('Ooops, cannot get user info!')
+            }
+        })
 }
