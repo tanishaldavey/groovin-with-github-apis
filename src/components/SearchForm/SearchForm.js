@@ -1,12 +1,13 @@
-import React from 'react';
+import React, { Component } from 'react';
 import './SearchForm.css';
 
-const SearchForm = () => {
-    return (
-        <form>
-
-        </form>
-    )
-}
+class SearchForm extends Component {
+    render () {
+        return (
+            <form></form>
+        )
+    }
+} 
+   
 
 export default SearchForm;
