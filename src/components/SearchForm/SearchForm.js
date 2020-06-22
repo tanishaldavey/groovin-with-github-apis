@@ -3,8 +3,7 @@ import './SearchForm.css';
 
 class SearchForm extends Component {
     state = {
-        username: '',
-        location: ''
+        username: ''
     }
 
     handleChange = e => {
@@ -17,10 +16,7 @@ class SearchForm extends Component {
     }
 
     clearForm = () => {
-        this.setState({
-            username: '', 
-            location: ''
-        })
+        this.setState({ username: '' })
     }
 
     render () {
@@ -31,13 +27,6 @@ class SearchForm extends Component {
                 name='username'
                 placeholder='Username'
                 value={this.state.username}
-                onChange={this.handleChange}
-                />
-                <input 
-                type='text'
-                name='location'
-                placeholder='Location'
-                value={this.state.location}
                 onChange={this.handleChange}
                 />
                 <button
