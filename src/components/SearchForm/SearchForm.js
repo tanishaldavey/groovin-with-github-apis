@@ -7,6 +7,10 @@ class SearchForm extends Component {
         location: ''
     }
 
+    handleChange = e => {
+        this.setState({ [e.target.name]: e.target.value })
+    }
+
     queryUsers = e => {
         e.preventDefault()
 
@@ -19,12 +23,14 @@ class SearchForm extends Component {
                 name='username'
                 placeholder='Username'
                 value={this.state.username}
+                onChange={this.handleChange}
                 />
                 <input 
                 type='text'
                 name='location'
                 placeholder='Location'
                 value={this.state.location}
+                onChange={this.handleChange}
                 />
                 <button
                 onClick={this.queryUsers} 
