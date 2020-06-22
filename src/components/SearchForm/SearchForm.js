@@ -13,8 +13,16 @@ class SearchForm extends Component {
 
     queryUsers = e => {
         e.preventDefault()
-
+        this.clearForm()
     }
+
+    clearForm = () => {
+        this.setState({
+            username: '', 
+            location: ''
+        })
+    }
+
     render () {
         return (
             <form>
