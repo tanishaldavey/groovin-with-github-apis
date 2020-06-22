@@ -1,4 +1,5 @@
 import React, { Component } from 'react';
+import { getAllUsers } from '../../apiCalls';
 import './SearchForm.css';
 
 class SearchForm extends Component {
@@ -12,7 +13,14 @@ class SearchForm extends Component {
 
     queryUsers = e => {
         e.preventDefault()
-        this.clearForm()
+        getAllUsers(this.state.username)
+            .then(allUsers => {
+                allUsers.items.map(user => {
+                    console.log(user.url);
+                    return user.url
+                })
+            })
+            .then(this.clearForm)
     }
 
     clearForm = () => {
